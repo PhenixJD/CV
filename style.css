@@ -1,0 +1,155 @@
+
+body {
+	background-color: rgba(50,50,50,0.2);
+	width:1320px;
+	height:1800px;
+}
+
+.cv {
+	font-size: 70px;
+	text-align: center;
+	letter-spacing:10px;
+	font-family: 'Playball', cursive;
+	transform:scaley(2);
+	color:rgb(30,30,30);
+	text-shadow: 3px -3px 8px rgb(30,30,30);
+}
+
+.menu {
+	display:inline-flex;
+    list-style-type:none;
+    justify-content:center;
+
+}
+/*titre*/
+
+.header {
+	width:1300px;
+	height:300px;
+	background-color: rgba(255,255,100,0.5);
+	border:4px solid olive;
+}
+
+.photo {
+	width:20%;
+	height:250px;
+	float:right;
+	transform:translateY(-77%);
+	box-shadow: 1px -7px 25px rgb(30,30,30);
+	border:1px solid olive;
+	margin-right:20px;
+}
+
+.nom {
+	width:600px;
+	height:200px;
+	background-color:rgba(250,50,70,0.2);
+	transform:translateY(18%);
+	margin-left:5%;
+	line-height:6px;
+	padding:8px;
+	font-family: 'Ultra';
+	overflow:hidden;
+	color:rgb(30,30,30);
+	box-shadow: 1px -7px 25px rgb(30,30,30);
+	border:1px solid olive;
+}
+/*entete*/
+
+.formation {
+	width:1000px;
+	height:300px;
+	background-color:rgba(255,255,100,0.5);
+	margin-left:100px;
+    padding:5px 60px 5px 20px;
+    overflow: hidden;
+    border:4px solid olive;
+}
+.annees {display:block;
+		background-color: rgba(250,50,70,0.2);
+		float:left;
+		margin-top:10px;
+		margin-left:50px;	
+		padding:20px 50px 10px 60px;
+		line-height:40px;
+		width:auto;	
+		height:250px;
+		overflow:hidden;
+		box-shadow: 1px -7px 25px rgb(30,30,30);
+		border:1px solid olive;
+}
+
+.ecoles {display:inline;		
+		background-color: rgba(250,50,70,0.2);
+		padding:20px 50px 10px 60px;
+	    line-height:20px;	
+	    float:right;
+		margin-top:10px;	
+		width:570px;
+		height:250px;
+		overflow:hidden;
+		box-shadow: 1px -7px 25px rgb(30,30,30);
+		border:1px solid olive;
+}
+/*partie 1:formation*/
+
+.titre {
+	margin:80px 100px 50px 100px;
+	overflow:hidden;
+	font-size:40px;
+	color:rgb(30,30,30);
+}
+
+
+.experience {
+	width:1090px;
+	height:400px;
+	background-color:rgba(255,255,100,0.5);
+	margin:10px auto 20px 60px;
+	overflow: hidden;
+	margin-left:100px;
+	border:4px solid olive;
+}
+
+.annees2 {
+	margin-left:7%;
+	background-color: rgba(250,50,70,0.2);
+	padding:15px 5% 55px 5%;
+	line-height:50px;
+	margin-top:20px;
+	box-shadow: 1px -7px 25px rgb(30,30,30);
+	border:1px solid olive;
+}
+.entreprises {
+	background-color: rgba(250,50,70,0.2);
+	padding:20px 50px 0px 50px;
+	width:570px;
+	height:340px;
+	margin-left:350px;
+	margin-top:20px;
+	font-size: 17px;
+	box-shadow: 1px -7px 25px rgb(30,30,30);
+	border:1px solid olive;
+}
+/*partie 2:expr. prof.*/
+
+.Loisirs{
+	width:1090px;
+	height:250px;
+	background-color:rgba(255,255,100,0.5);
+	margin:10px 50px 100px 60px;
+	overflow: hidden;
+	margin-left:100px;
+	border:4px solid olive;
+}
+
+.loisirs {
+	width:840px;
+	height:170px;
+	background-color: rgba(250,50,70,0.2);
+	margin:20px 50px 20px 80px;
+	padding:20px 50px 20px 50px;
+	box-shadow: 1px -7px 25px rgb(30,30,30);
+	border:1px solid olive;
+}
+/*partie 3:loisirs*/
